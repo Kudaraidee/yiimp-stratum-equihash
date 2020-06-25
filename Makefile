@@ -11,7 +11,7 @@ SQLFLAGS= `mysql_config --cflags --libs`
 CFLAGS += -DNO_EXCHANGE 
 
 # NO_MYSQL flag used to operate in solo mode without DB installed
-CFLAGS += -DNO_MYSQL
+#CFLAGS += -DNO_MYSQL
 
 #CFLAGS=-c -O2 -I /usr/include/mysql
 LDFLAGS=-O2 `mysql_config --libs`
